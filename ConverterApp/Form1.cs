@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ConverterApp
-    // This program was written by Gail Mosdell
-    // It forms the base of a converter program for the OS-Assessment Two for Cert IV
-    // Date : February 2017
+// This program was originally written by Gail Mosdell (February 2017), Edited by Brody Mountford
+// It forms the base of a converter program for the OS-Assessment Two for Cert IV
+// Date : March 2017
 {
     public partial class frm_Main : Form
     {
@@ -23,6 +23,7 @@ namespace ConverterApp
         // Global Variables and Constants
         double dbl_UofM, dbl_Convert;
 
+        //public void inputError;
         private void btn_Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -34,7 +35,7 @@ namespace ConverterApp
            
             // validate user entry and convert to a double
 
-            if (! double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
+            if (! double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM)) //If no numeric value is entered open a messagebox error
             {
                 MessageBox.Show("A numeric must be entered. Please re-enter the value.");
                 txt_UnitOfMeasure.Clear();
@@ -54,7 +55,26 @@ namespace ConverterApp
 
         private void btn_M_to_Feet_Click(object sender, EventArgs e)
         {
-            // Create Code for this procedure
+            const double M_TO_FEET = 3.28084;
+
+            // validate user entry and convert to a double
+
+            if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM)) //If no numeric value is entered open a messagebox error
+            {
+                MessageBox.Show("A numeric must be entered. Please re-enter the value.");
+                txt_UnitOfMeasure.Clear();
+                txt_UnitOfMeasure.Focus();
+                txt_Convert.Clear();
+                lbl_Convert.Text = "";
+                lbl_Display.Text = "";
+            }
+            else
+            {
+                dbl_Convert = dbl_UofM * M_TO_FEET;
+                txt_Convert.Text = dbl_Convert.ToString();
+                lbl_Display.Text = txt_UnitOfMeasure.Text + " metres is converted to ";
+                lbl_Convert.Text = " feet.";
+            }
         }
     }
 }
