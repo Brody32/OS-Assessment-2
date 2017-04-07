@@ -25,3 +25,12 @@ E:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterA
 E:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
 E:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
 E:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\bin\Debug\ConverterApp.exe.config
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.exe
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.pdb
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\bin\Debug\ConverterApp.exe
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\bin\Debug\ConverterApp.pdb
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.csprojResolveAssemblyReference.cache
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
+H:\TAFE\Open source and Testing\Assessment Two\OS-Assessment-2-master\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
